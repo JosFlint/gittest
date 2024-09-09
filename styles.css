@@ -24,6 +24,6 @@ video {
     width: 100vw; /* Match the video width */
     height: auto; /* Maintain aspect ratio */
     mix-blend-mode: multiply; /* Apply Multiply blend mode */
-    opacity: 0.1; /* Trying to code myself and increase opacity */
+    opacity: 10; /* Trying to code myself and increase opacity */
     pointer-events: none; /* Allow clicks to pass through the overlay */
 }
