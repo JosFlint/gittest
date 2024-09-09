@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
     const video = document.getElementById('video');
-    const overlay = document.querySelector('.overlay');
+    const overlay = document.querySelector('.overlay.png');
 
     // Request access to the camera
     navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } })
