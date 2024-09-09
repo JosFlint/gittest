@@ -3,7 +3,7 @@ window.addEventListener('load', function() {
     const overlay = document.querySelector('.overlay');
 
     // Request access to the camera
-    navigator.mediaDevices.getUserMedia({ video: { facingMode: "user" } })
+    navigator.mediaDevices.getUserMedia({ video: { facingMode: "enviroment" } })
         .then(function(stream) {
             // Set the video source to the stream from the camera
             video.srcObject = stream;
